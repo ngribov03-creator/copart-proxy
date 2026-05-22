@@ -1,0 +1,16 @@
+{
+  "name": "copart-bidfax-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for BidFax data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.0"
+  }
+}
