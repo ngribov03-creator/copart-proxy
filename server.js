@@ -177,6 +177,6 @@ function damageKeywords(damage) {
   return map[damage] || [damage];
 }
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Proxy server running on port ${PORT}`);
 });
